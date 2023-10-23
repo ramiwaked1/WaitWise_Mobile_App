@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#15171A"
+
+    tools:context=".FilterActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/top"
+        android:background="#FF9800">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Clinics"
+                android:textAlignment="center"
+                android:textSize="@dimen/_16sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:textColor="#fff"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_5sdp"
+                android:textColorHint="#E6E6E6"
+                android:background="@drawable/blue_circularbutton"
+                android:hint="Search"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="2"
+                android:layout_marginTop="@dimen/_5sdp"
+                android:padding="@dimen/_3sdp"
+                android:background="@drawable/blue_circularbutton"
+                android:orientation="horizontal">
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="All"
+                    android:background="@drawable/all"
+                    android:layout_weight="1"
+                    android:padding="@dimen/_2sdp"
+                    android:textAlignment="center"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/_10sdp"
+                    android:textColor="#fff"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:text="Favourites"
+                    android:layout_weight="1"
+                    android:layout_gravity="center"
+                    android:textAlignment="center"
+                    android:textSize="@dimen/_10sdp"
+                    android:textColor="#fff"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="gone"
+        android:text="This is The Filter Screen"
+        android:textColor="#000" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/bnve"
+        android:id="@+id/ll"
+
+        android:layout_below="@+id/top">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <com.makeramen.roundedimageview.RoundedImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_120sdp"
+                        android:src="@drawable/glen"
+                        android:id="@+id/clinic1"
+                        android:scaleType="centerCrop"
+                        app:riv_corner_radius="@dimen/_10sdp"/>
+                    <ImageView
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:src="@drawable/heart"
+                        android:tint="#BDBDBD"/>
+                </RelativeLayout>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_14sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:text="Glen Gate Medical Clinic"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:textColor="#787878"
+                    android:text="Family practice physician"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <com.makeramen.roundedimageview.RoundedImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_120sdp"
+                        android:src="@drawable/qeen"
+                        android:id="@+id/clinic2"
+
+                        android:scaleType="centerCrop"
+                        app:riv_corner_radius="@dimen/_10sdp"/>
+                    <ImageView
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:src="@drawable/heart"
+                        android:tint="#BDBDBD"/>
+                </RelativeLayout>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_14sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+
+                    android:text="The Queen Clinic"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#787878"
+
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:text="Walk-in clinic"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <com.makeramen.roundedimageview.RoundedImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_120sdp"
+                        android:src="@drawable/bri"
+                        android:id="@+id/clinic3"
+
+                        android:scaleType="centerCrop"
+                        app:riv_corner_radius="@dimen/_10sdp"/>
+                    <ImageView
+                        android:layout_width="@dimen/_20sdp"
+                        android:layout_height="@dimen/_20sdp"
+                        android:layout_alignParentEnd="true"
+                        android:layout_margin="@dimen/_5sdp"
+                        android:src="@drawable/heart"
+                        android:tint="#BDBDBD"/>
+                </RelativeLayout>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_14sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+
+                    android:text="Britannia Health Clinic"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:textColor="#787878"
+
+                    android:text="Walk-in clinic"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bnve"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_below="@+id/top" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerView2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/bnve"
+        android:visibility="gone"
+        android:layout_below="@+id/top" />
+
+
+    <com.aurelhubert.ahbottomnavigation.AHBottomNavigation
+        android:id="@+id/bnve"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        />
+
+
+</RelativeLayout>

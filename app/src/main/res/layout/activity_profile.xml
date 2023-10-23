@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#15171A"
+
+    tools:context=".ProfileActivity">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FF9800">
+
+            <androidx.appcompat.widget.Toolbar
+                android:layout_width="match_parent"
+                android:id="@+id/toolbar"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Profile"
+                    android:textStyle="bold"
+                    android:textColor="#FFFFFF"
+                    android:textSize="@dimen/_18sdp"/>
+
+
+
+            </androidx.appcompat.widget.Toolbar>
+
+        </com.google.android.material.appbar.AppBarLayout>
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_150sdp"
+                android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <com.makeramen.roundedimageview.RoundedImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_150sdp"
+                        android:id="@+id/img"
+                        android:scaleType="centerCrop"
+                        android:src="@drawable/h122"/>
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_100sdp"
+                        android:layout_alignParentBottom="true"
+                        android:src="@drawable/shade"/>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Name"
+                        android:singleLine="true"
+                        android:layout_alignParentBottom="true"
+                        android:layout_marginRight="@dimen/_10sdp"
+                        android:layout_marginStart="@dimen/_10sdp"
+                        android:textStyle="bold"
+                        android:id="@+id/tvName"
+                        android:textColor="#fff"
+                        android:textSize="@dimen/_25sdp"/>
+                </RelativeLayout>
+
+
+
+
+
+
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/tvDes"
+                    android:textStyle="bold"
+                    android:textColor="#787878"
+
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginStart="@dimen/_10sdp"
+
+                    android:text="Service Offered"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:textColor="#C8C8C8"
+
+                    android:text="Medical care for minor illness and inguries"/>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:textColor="#787878"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginBottom="@dimen/_5sdp"
+                    android:text="Rate your Experience"/>
+
+                <RatingBar
+                    android:layout_width="wrap_content"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_height="wrap_content"/>
+
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_200sdp"
+                    android:src="@drawable/ko"
+                    android:scaleType="centerCrop"/>
+                <com.google.android.gms.maps.MapView
+                    android:layout_width="fill_parent"
+                    android:id="@+id/mapView"
+                    android:visibility="gone"
+
+                    android:layout_height="fill_parent"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="#787878"
+
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:textSize="@dimen/_12sdp"
+                    android:text="Address"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Address"
+                    android:id="@+id/tvAddress"
+                    android:textColor="#C8C8C8"
+
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:textSize="@dimen/_12sdp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:textSize="@dimen/_12sdp"
+                    android:textColor="#787878"
+
+                    android:text="Phone Number"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="905-287-9845"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:textColor="#C8C8C8"
+
+                    android:textSize="@dimen/_12sdp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="#787878"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:textSize="@dimen/_12sdp"
+                    android:text="Email"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="info@clinic.com"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_marginStart="@dimen/_10sdp"
+                    android:layout_marginEnd="@dimen/_10sdp"
+                    android:textColor="#C8C8C8"
+
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:textSize="@dimen/_12sdp"/>
+            </LinearLayout>
+
+        </ScrollView>
+
+
+
+
+    </LinearLayout>
+
+
+
+
+
+
+</RelativeLayout>

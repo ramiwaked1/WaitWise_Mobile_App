@@ -1,0 +1,193 @@
+{
+  "project_info": {
+    "project_number": "354683554256",
+    "firebase_url": "https://all-about-mama.firebaseio.com",
+    "project_id": "all-about-mama",
+    "storage_bucket": "all-about-mama.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:354683554256:android:f10e1f0c156a8b600b91d5",
+        "android_client_info": {
+          "package_name": "com.allaboutmama.android.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "354683554256-n6kafi09k1360j3q2jirt0rgn5nkl80s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.allaboutmama.android.app",
+            "certificate_hash": "995211d594177dcb23a1da486f757ef5a927a4c4"
+          }
+        },
+        {
+          "client_id": "354683554256-jgpqp2ctei0d15oi68s6ekvrtauq6l9s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm76sBnJQAkp5axt5CGaTC4bJCYRbjwqA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "354683554256-jgpqp2ctei0d15oi68s6ekvrtauq6l9s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:354683554256:android:8b5e818b141d1a030b91d5",
+        "android_client_info": {
+          "package_name": "com.app.groundfloor24.clinicsmap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "354683554256-jgpqp2ctei0d15oi68s6ekvrtauq6l9s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm76sBnJQAkp5axt5CGaTC4bJCYRbjwqA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "354683554256-jgpqp2ctei0d15oi68s6ekvrtauq6l9s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:354683554256:android:2bfc88e7ff2f6b590b91d5",
+        "android_client_info": {
+          "package_name": "com.example.chatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "354683554256-jgpqp2ctei0d15oi68s6ekvrtauq6l9s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm76sBnJQAkp5axt5CGaTC4bJCYRbjwqA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "354683554256-jgpqp2ctei0d15oi68s6ekvrtauq6l9s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:354683554256:android:5d03a6704b195e0a0b91d5",
+        "android_client_info": {
+          "package_name": "com.information.app.az"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "354683554256-jgpqp2ctei0d15oi68s6ekvrtauq6l9s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm76sBnJQAkp5axt5CGaTC4bJCYRbjwqA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "354683554256-jgpqp2ctei0d15oi68s6ekvrtauq6l9s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:354683554256:android:79c06f981fa69cce0b91d5",
+        "android_client_info": {
+          "package_name": "com.informative.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "354683554256-jgpqp2ctei0d15oi68s6ekvrtauq6l9s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm76sBnJQAkp5axt5CGaTC4bJCYRbjwqA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "354683554256-jgpqp2ctei0d15oi68s6ekvrtauq6l9s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:354683554256:android:05276dc6dee534810b91d5",
+        "android_client_info": {
+          "package_name": "com.mentalhealth.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "354683554256-jgpqp2ctei0d15oi68s6ekvrtauq6l9s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBm76sBnJQAkp5axt5CGaTC4bJCYRbjwqA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "354683554256-jgpqp2ctei0d15oi68s6ekvrtauq6l9s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

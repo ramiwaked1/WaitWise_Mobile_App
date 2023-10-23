@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#15171A"
+
+    tools:context=".MainActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/top"
+        android:background="#FF9800">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_10sdp"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textStyle="bold"
+                android:textColor="#fff"
+                android:layout_marginBottom="@dimen/_10sdp"
+                android:textSize="@dimen/_25sdp"
+                android:text="Home"/>
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/_5sdp"
+                android:textColorHint="#BCBCBC"
+                android:background="@drawable/blue_circularbutton"
+                android:hint="Search"/>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_below="@+id/top"
+        android:layout_above="@+id/bnve"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:orientation="vertical">
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_120sdp"
+                    android:src="@drawable/capcheck"
+                    android:id="@+id/im1"
+                    android:scaleType="centerCrop"
+                    app:riv_corner_radius="@dimen/_10sdp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textColor="#C8C8C8"
+                    android:textSize="@dimen/_14sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:text="WaitWise"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:textColor="#787878"
+                    android:text="WaitWise"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:orientation="vertical">
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_120sdp"
+                    android:src="@drawable/real"
+                    android:id="@+id/im2"
+
+                    android:scaleType="centerCrop"
+                    app:riv_corner_radius="@dimen/_10sdp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_14sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+
+                    android:text="Real-Time Clinic Capacity"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textColor="#787878"
+
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    android:text="Title"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:orientation="vertical">
+                <com.makeramen.roundedimageview.RoundedImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_120sdp"
+                    android:src="@drawable/tuned"
+                    android:id="@+id/im3"
+
+                    android:scaleType="centerCrop"
+                    app:riv_corner_radius="@dimen/_10sdp"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:textStyle="bold"
+                    android:textSize="@dimen/_14sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+
+                    android:text="Stay Tuned!"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/_30sdp"
+                    android:textColor="#787878"
+
+                    android:text="Title"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <com.aurelhubert.ahbottomnavigation.AHBottomNavigation
+        android:id="@+id/bnve"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#050506"
+        android:layout_alignParentBottom="true"
+        />
+
+</RelativeLayout>
